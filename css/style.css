@@ -39,6 +39,17 @@
             color: white;
         }
 
+        .logout{
+            padding: 10px 20px;
+            width: 100%;
+            text-align: right;
+            font-size: 18px;
+        }
+
+        .logout label{
+            color: white;
+        }
+
         #nav{
             margin: 1px 5px;
             width: 15%;
@@ -52,6 +63,7 @@
         .navega{
             margin: 15px 15px;
             justify-items: center;
+            font-size: 16px;
         }
 
 
@@ -60,6 +72,20 @@
             height: 358px;
             background-color: white;
         }
+
+        #main p{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+            color: aliceblue;
+        }
+
+        #main H3{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 22px;
+        }
+
 
         .fundo{
             margin: 50px 250px;
@@ -82,4 +108,24 @@
         .logo_univesp{
             width: 200px;
             height: 150px;
+        }
+
+        #main{
+            text-align: center;
+            justify-items: center;
+        }
+
+        #main button{
+            font-size: 16px;
+            color: red;
+            background-color: gray;
+            
+            justify-content: space-between;
+            border: 1px;
+            border-radius: 10px;
+        }
+
+        .cadastro_consulta{
+            font-size: 16px;
+            color:red;
         }
